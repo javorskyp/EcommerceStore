@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import db from "@/db/db";
-import { formatCurrency, formatNumber } from "@/lib/formatters";
+import { Button } from "@/src/components/ui/button";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/src/components/ui/dropdown-menu";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/src/components/ui/table";
+import db from "@/src/db/db";
+import { formatCurrency, formatNumber } from "@/src/lib/formatters";
 import Link from "@/node_modules/next/link";
 import { CheckCircle2, MoreVertical, XCircle } from "lucide-react";
 import { PageHeader } from "../_components/PageHeader";
